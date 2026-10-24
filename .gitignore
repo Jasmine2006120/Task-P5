@@ -1,0 +1,23 @@
+# Dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Runtime mailing list (contains subscriber email addresses)
+mailing-list.json
+
+# Logs and local editor files
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+
+.env
+node_modules
+dist
