@@ -177,7 +177,7 @@ export default function Home() {
             className="h-[350px] w-full object-cover md:h-[450px]"
           />
 
-          <div className="absolute inset-x-0 bottom-0 translate-y-full bg-black/60 px-4 py-5 text-center transition-transform duration-300 group-hover:translate-y-0 group-focus-within:translate-y-0">
+          <div className="absolute inset-x-0 bottom-0 translate-y-full bg-teal-500/60 px-4 py-5 text-center transition-transform duration-300 group-hover:translate-y-0 group-focus-within:translate-y-0">
             <p className="text-xl font-medium text-white md:text-3xl">
               Hey, I am Jasmine.
             </p>
