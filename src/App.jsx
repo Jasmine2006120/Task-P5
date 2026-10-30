@@ -15,6 +15,7 @@ function Layout() {
             <Routes>
                 <Route element={<ProtectedRoute />}>
                     <Route path="/" element={<Home />} />
+                    <Route path="/post" element={<NewPost />} />
                 </Route>
 
                 <Route path="/login" element={<Login />} />
