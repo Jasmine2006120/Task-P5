@@ -149,10 +149,10 @@ export default function Navbar() {
             </>
           )}
 
-          {/* Post is currently a visual placeholder, as in the original project. */}
-          <button type="button" onClick={() => setMenuOpen(false)} className={sectionButtonStyle}>
+         <NavLink to="/post"
+           className={linkStyle}>
             Post
-          </button>
+         </NavLink>
 
           {user ? (
             <button
