@@ -344,9 +344,8 @@ export default function Home() {
       </section>
 
       {/* Subscribe Section */}
-      <div id="contact" className="scroll-mt-24">
       <section
-        id="subscribe"
+        id="contact"
         className="border-t border-gray-200 px-4 py-14"
       >
         <div className="mx-auto max-w-xl text-center">
@@ -394,7 +393,7 @@ export default function Home() {
           )}
         </div>
       </section>
-      </div>
+  
     </main>
   );
 }
