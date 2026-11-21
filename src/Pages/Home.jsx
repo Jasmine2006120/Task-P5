@@ -344,6 +344,7 @@ export default function Home() {
       </section>
 
       {/* Subscribe Section */}
+      <div id="contact" className="scroll-mt-24">
       <section
         id="subscribe"
         className="border-t border-gray-200 px-4 py-14"
@@ -393,7 +394,7 @@ export default function Home() {
           )}
         </div>
       </section>
-
+      </div>
     </main>
   );
 }
